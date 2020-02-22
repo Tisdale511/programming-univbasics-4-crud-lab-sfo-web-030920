@@ -9,13 +9,13 @@ end
 
 def add_element_to_end_of_array(array, element)
   arr = ["elf", "butt", 9, 3]
-  arr.push('ele')
+  arr << "ele"
   return arr
 end
 
 def add_element_to_start_of_array(array, element)
   arr = ["elf", "butt", 9, 3]
-  arr.unshift('ele')
+  arr.unshift("ele")
   return arr
 end
 
